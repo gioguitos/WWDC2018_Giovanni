@@ -103,11 +103,11 @@
 		27D78E242062BE5600069941 /* WWDC2018 */ = {
 			isa = PBXGroup;
 			children = (
+				27D78E2D2062BE5600069941 /* GameViewController.swift */,
 				27D78E252062BE5600069941 /* AppDelegate.swift */,
+				27D78E2B2062BE5600069941 /* GameScene.swift */,
 				27D78E272062BE5600069941 /* GameScene.sks */,
 				27D78E292062BE5600069941 /* Actions.sks */,
-				27D78E2B2062BE5600069941 /* GameScene.swift */,
-				27D78E2D2062BE5600069941 /* GameViewController.swift */,
 				27D78E2F2062BE5600069941 /* Main.storyboard */,
 				27D78E322062BE5600069941 /* Assets.xcassets */,
 				27D78E342062BE5600069941 /* LaunchScreen.storyboard */,
