@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2735999C2067F5E600F736B4 /* left.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 2735999B2067F5E500F736B4 /* left.atlas */; };
+		273599A02068003600F736B4 /* jumpRight.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 2735999F2068003600F736B4 /* jumpRight.atlas */; };
+		273599A22068014D00F736B4 /* jumpLeft.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 273599A12068014D00F736B4 /* jumpLeft.atlas */; };
+		27B20FCC2067C20000458D3C /* right.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 27B20FCB2067C20000458D3C /* right.atlas */; };
 		27D78E262062BE5600069941 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D78E252062BE5600069941 /* AppDelegate.swift */; };
 		27D78E282062BE5600069941 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 27D78E272062BE5600069941 /* GameScene.sks */; };
 		27D78E2A2062BE5600069941 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 27D78E292062BE5600069941 /* Actions.sks */; };
@@ -37,6 +41,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2735999B2067F5E500F736B4 /* left.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; name = left.atlas; path = ../../left.atlas; sourceTree = "<group>"; };
+		2735999F2068003600F736B4 /* jumpRight.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; name = jumpRight.atlas; path = ../../jumpRight.atlas; sourceTree = "<group>"; };
+		273599A12068014D00F736B4 /* jumpLeft.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; name = jumpLeft.atlas; path = ../../jumpLeft.atlas; sourceTree = "<group>"; };
+		27B20FCB2067C20000458D3C /* right.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; name = right.atlas; path = ../../right.atlas; sourceTree = "<group>"; };
 		27D78E222062BE5600069941 /* WWDC2018.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WWDC2018.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		27D78E252062BE5600069941 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		27D78E272062BE5600069941 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -103,6 +111,10 @@
 		27D78E242062BE5600069941 /* WWDC2018 */ = {
 			isa = PBXGroup;
 			children = (
+				273599A12068014D00F736B4 /* jumpLeft.atlas */,
+				2735999F2068003600F736B4 /* jumpRight.atlas */,
+				2735999B2067F5E500F736B4 /* left.atlas */,
+				27B20FCB2067C20000458D3C /* right.atlas */,
 				27D78E2D2062BE5600069941 /* GameViewController.swift */,
 				27D78E252062BE5600069941 /* AppDelegate.swift */,
 				27D78E2B2062BE5600069941 /* GameScene.swift */,
@@ -241,8 +253,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27B20FCC2067C20000458D3C /* right.atlas in Resources */,
 				27D78E312062BE5600069941 /* Main.storyboard in Resources */,
+				273599A22068014D00F736B4 /* jumpLeft.atlas in Resources */,
 				27D78E282062BE5600069941 /* GameScene.sks in Resources */,
+				2735999C2067F5E600F736B4 /* left.atlas in Resources */,
+				273599A02068003600F736B4 /* jumpRight.atlas in Resources */,
 				27D78E332062BE5600069941 /* Assets.xcassets in Resources */,
 				27D78E362062BE5600069941 /* LaunchScreen.storyboard in Resources */,
 				27D78E2A2062BE5600069941 /* Actions.sks in Resources */,
